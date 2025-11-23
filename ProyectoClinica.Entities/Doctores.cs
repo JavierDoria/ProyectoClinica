@@ -8,12 +8,12 @@ namespace ProyectoClinica.Entities
 {
     public class Doctores
     {
-        private int Id_doctor { get; set; }
-        private string nombre {  get; set; }
-        private string apellido {  get; set; }
-        private string dni {  get; set; }
-        private string telefono { get; set; }
-        private Especialidad Id_Especialidad { get; set; }
-        private string correo { get; set; }
+        public int Id_doctor { get; set; }
+        public string nombre {  get; set; }
+        public string apellido {  get; set; }
+        public string dni {  get; set; }
+        public string telefono { get; set; }
+        public Especialidad Especialidad { get; set; } = new Especialidad();
+        public string correo { get; set; }
     }
 }

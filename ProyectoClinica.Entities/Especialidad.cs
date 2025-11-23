@@ -8,7 +8,7 @@ namespace ProyectoClinica.Entities
 {
     public class Especialidad
     {
-        private int Id_Especialidad {  get; set; }
-        private string carrera {  get; set; }
+        public int Id_Especialidad {  get; set; }
+        public string carrera {  get; set; }
     }
 }

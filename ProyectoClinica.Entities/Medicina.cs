@@ -8,9 +8,9 @@ namespace ProyectoClinica.Entities
 {
     public class Medicina
     {
-        private int Id_Medicina {  get; set; }
-        private string codigo { get; set; }
-        private string nombre { get; set; }
-        private double precio { get; set; }
+        public int Id_Medicina {  get; set; }
+        public string codigo { get; set; }
+        public string nombre { get; set; }
+        public double precio { get; set; }
     }
 }

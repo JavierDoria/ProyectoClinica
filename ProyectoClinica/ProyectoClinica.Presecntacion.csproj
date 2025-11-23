@@ -142,5 +142,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoClinica.Business\ProyectoClinica.Business.csproj">
+      <Project>{d4c4cef3-0ea2-427d-9291-c22a728874d3}</Project>
+      <Name>ProyectoClinica.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProyectoClinica.Entities\ProyectoClinica.Entities.csproj">
+      <Project>{cc03ac80-299f-4ade-bea6-57e12e77f32d}</Project>
+      <Name>ProyectoClinica.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

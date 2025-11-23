@@ -8,11 +8,11 @@ namespace ProyectoClinica.Entities
 {
     public class Paciente
     {
-        private int Id_Paciente {  get; set; }
-        private string nombres {  get; set; }
-        private string apellidos {  get; set; }
-        private string correo {  get; set; }
-        private string dni { get; set; }
-        private string telefono {  get; set; }
+        public int Id_Paciente {  get; set; }
+        public string nombres {  get; set; }
+        public string apellidos {  get; set; }
+        public string correo {  get; set; }
+        public string dni { get; set; }
+        public string telefono {  get; set; }
     }
 }

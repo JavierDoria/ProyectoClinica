@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ProyectoClinica.Business.Services;
+using ProyectoClinica.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,16 +14,38 @@ namespace ProyectoClinica
 {
     public partial class InicioSesion : Form
     {
+        private Login usuarioLogeado;
         public InicioSesion()
         {
             InitializeComponent();
+            
         }
-
+       
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            Principal frm = new Principal();
-            frm.Show();
-            this.Hide();
+            try
+            {
+                string usuario = txtUsuario.Text;
+                string clave = txtClave.Text;
+                LoginServices service = new LoginServices();
+                Login login = service.IniciarSesion(usuario, clave);
+
+                if (login != null)
+                {
+                    MessageBox.Show("Bienvenido " + login.usuario);
+                    Principal frm = new Principal(login);
+                    frm.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario o contraseña incorrectos");
+                }
+            }
+            catch (Exception ex) 
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

@@ -8,7 +8,7 @@ namespace ProyectoClinica.Entities
 {
     public class Roles
     {
-        private int id_Roles {  get; set; }
-        private string Nombre { get; set; }
+        public int id_Roles {  get; set; }
+        public string Nombre { get; set; }
     }
 }

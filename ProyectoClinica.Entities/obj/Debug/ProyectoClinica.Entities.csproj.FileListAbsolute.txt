@@ -1,0 +1,6 @@
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Entities\bin\Debug\ProyectoClinica.Entities.dll
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Entities\bin\Debug\ProyectoClinica.Entities.pdb
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Entities\obj\Debug\ProyectoClinica.Entities.csproj.AssemblyReference.cache
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Entities\obj\Debug\ProyectoClinica.Entities.csproj.CoreCompileInputs.cache
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Entities\obj\Debug\ProyectoClinica.Entities.dll
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Entities\obj\Debug\ProyectoClinica.Entities.pdb

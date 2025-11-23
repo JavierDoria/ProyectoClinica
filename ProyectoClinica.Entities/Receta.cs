@@ -8,10 +8,10 @@ namespace ProyectoClinica.Entities
 {
     public class Receta
     {
-        private int Id_receta { get; set; }
-        private Doctores Id_Doctor { get; set; }
-        private Paciente Id_Paciente { get; set; }
-        private string diagnostico {  get; set; }
-        private DateTime fecha { get; set; }
+        public int Id_receta { get; set; }
+        public Doctores Doctor { get; set; } = new Doctores();
+        public Paciente Paciente { get; set; } = new Paciente();
+        public string diagnostico {  get; set; }
+        public DateTime fecha { get; set; }
     }
 }

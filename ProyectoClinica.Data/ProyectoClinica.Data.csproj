@@ -41,8 +41,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Connection\Connection.cs" />
+    <Compile Include="Connection\ConnectionDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\LoginDAO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoClinica.Entities\ProyectoClinica.Entities.csproj">
+      <Project>{cc03ac80-299f-4ade-bea6-57e12e77f32d}</Project>
+      <Name>ProyectoClinica.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

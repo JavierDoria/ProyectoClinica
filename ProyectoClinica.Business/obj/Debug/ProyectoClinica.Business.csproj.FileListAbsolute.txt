@@ -1,0 +1,11 @@
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Business\bin\Debug\ProyectoClinica.Business.dll
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Business\bin\Debug\ProyectoClinica.Business.pdb
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Business\bin\Debug\ProyectoClinica.Data.dll
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Business\bin\Debug\ProyectoClinica.Entities.dll
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Business\bin\Debug\ProyectoClinica.Data.pdb
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Business\bin\Debug\ProyectoClinica.Entities.pdb
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Business\obj\Debug\ProyectoClinica.Business.csproj.AssemblyReference.cache
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Business\obj\Debug\ProyectoClinica.Business.csproj.CoreCompileInputs.cache
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Business\obj\Debug\Proyecto.1FE616AF.Up2Date
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Business\obj\Debug\ProyectoClinica.Business.dll
+C:\Users\jjjja\Desktop\c#\ProyectoClinica\ProyectoClinica.Business\obj\Debug\ProyectoClinica.Business.pdb

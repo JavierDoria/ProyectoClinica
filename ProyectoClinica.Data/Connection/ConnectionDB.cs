@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace ProyectoClinica.Data.Connection
 {
-    public class Connection
+    public class ConnectionDB
     {
         private static readonly string connectionString =
-            "Server=localhost\\SQLEXPRESS01;Database=Clinica;Trusted_Connection=True;";
+            "Server=DESKTOP-QDE61J8;Database=ClinicaDB;User ID=sa;Password=123456;Integrated Security=True;";
         public static SqlConnection GetConnection()
         {
             return new SqlConnection(connectionString);

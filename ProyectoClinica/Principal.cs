@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProyectoClinica.Entities;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,10 +13,26 @@ namespace ProyectoClinica
 {
     public partial class Principal : Form
     {
-        public Principal()
+        private Login usuarioLogeado;
+        public Principal(Login usuario)
         {
             InitializeComponent();
             this.IsMdiContainer = true;
+            usuarioLogeado = usuario;
+            ConfigurarPorRol();
+        }
+        private void ConfigurarPorRol()
+        {
+            int rol = usuarioLogeado.Roles.id_Roles;
+
+            if (rol == 1)
+                return; // ADMIN no se oculta nada
+
+            if (rol == 2) // DOCTOR
+            {
+                pOPULARIDADToolStripMenuItem.Visible = false;
+                mantenimientoToolStripMenuItem.Visible = false;
+            }
         }
         private void cerrar()
         {
@@ -72,6 +89,11 @@ namespace ProyectoClinica
             Popularidad frm = new Popularidad();
             frm.MdiParent = this;
             frm.Show();
+        }
+
+        private void Principal_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -8,10 +8,10 @@ namespace ProyectoClinica.Entities
 {
     public class Login
     {
-        private int Id_Login {  get; set; }
-        private Roles id_Roles { get; set; }
-        private Doctores Id_Doctores { get; set; }
-        private string usuario { get; set; }
-        private string clabe { get; set; }
+        public int Id_Login {  get; set; }
+        public Roles Roles { get; set; } = new Roles();
+        public Doctores Doctores { get; set; } = new Doctores();
+        public string usuario { get; set; }
+        public string clave { get; set; }
     }
 }

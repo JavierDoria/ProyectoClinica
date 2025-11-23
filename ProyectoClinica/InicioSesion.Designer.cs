@@ -32,7 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.btnIngresar = new System.Windows.Forms.Button();
-            this.txtInicio = new System.Windows.Forms.TextBox();
+            this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtClave = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -73,12 +73,12 @@
             this.btnIngresar.UseVisualStyleBackColor = true;
             this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
-            // txtInicio
+            // txtUsuario
             // 
-            this.txtInicio.Location = new System.Drawing.Point(177, 139);
-            this.txtInicio.Name = "txtInicio";
-            this.txtInicio.Size = new System.Drawing.Size(236, 20);
-            this.txtInicio.TabIndex = 4;
+            this.txtUsuario.Location = new System.Drawing.Point(177, 139);
+            this.txtUsuario.Name = "txtUsuario";
+            this.txtUsuario.Size = new System.Drawing.Size(236, 20);
+            this.txtUsuario.TabIndex = 4;
             // 
             // txtClave
             // 
@@ -93,7 +93,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(617, 450);
             this.Controls.Add(this.txtClave);
-            this.Controls.Add(this.txtInicio);
+            this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.btnIngresar);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -112,7 +112,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnIngresar;
-        private System.Windows.Forms.TextBox txtInicio;
+        private System.Windows.Forms.TextBox txtUsuario;
         private System.Windows.Forms.TextBox txtClave;
     }
 }

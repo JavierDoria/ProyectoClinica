@@ -13,7 +13,8 @@ namespace ProyectoClinica.Data.Repository
     {
         public Login LoginUsuario(string usuario, string clave)
         {
-            Login login = new Login();
+            Login login = null;
+
             using (SqlConnection cn = ConnectionDB.GetConnection())
             {
                 string sql = "SELECT * FROM Login WHERE usuario=@usuario AND clave=@clave";
@@ -21,26 +22,30 @@ namespace ProyectoClinica.Data.Repository
 
                 cmd.Parameters.AddWithValue("@usuario", usuario);
                 cmd.Parameters.AddWithValue("@clave", clave);
-                    
+
                 cn.Open();
                 SqlDataReader dr = cmd.ExecuteReader();
-                if (dr.Read()) 
-                {
-                    if(dr["id_login"] != DBNull.Value)
-                        login.Id_Login = Convert.ToInt32(dr["id_login"]);
 
-                    if(dr["id_rol"] != DBNull.Value)
+                if (dr.Read())
+                {
+                    login = new Login();
+                    login.Roles = new Roles();
+                    login.Doctores = new Doctores();
+
+                    login.Id_Login = Convert.ToInt32(dr["id_login"]);
+
+                    if (dr["id_rol"] != DBNull.Value)
                         login.Roles.id_Roles = Convert.ToInt32(dr["id_rol"]);
 
                     if (dr["id_doctor"] != DBNull.Value)
                         login.Doctores.Id_doctor = Convert.ToInt32(dr["id_doctor"]);
 
-                    usuario = dr["usuario"].ToString();
-                    clave = dr["clave"].ToString();
+                    login.usuario = dr["usuario"].ToString();
+                    login.clave = dr["clave"].ToString();
                 }
                 dr.Close();
             }
-            return login;
+            return login; 
         }
     }
 }

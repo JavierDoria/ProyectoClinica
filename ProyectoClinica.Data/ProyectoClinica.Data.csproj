@@ -43,6 +43,8 @@
   <ItemGroup>
     <Compile Include="Connection\ConnectionDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\DoctorDAO.cs" />
+    <Compile Include="Repository\EspecialidadDAO.cs" />
     <Compile Include="Repository\LoginDAO.cs" />
   </ItemGroup>
   <ItemGroup>

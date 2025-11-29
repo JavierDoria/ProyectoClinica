@@ -26,7 +26,9 @@ namespace ProyectoClinica
             try
             {
                 string usuario = txtUsuario.Text;
-                string clave = txtClave.Text;
+                string clave = txtClave.Text; 
+                //string usuario = "admin";
+                //string clave = "admin123";
                 LoginServices service = new LoginServices();
                 Login login = service.IniciarSesion(usuario, clave);
 

@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9802DD47-CB78-43E7-8CB7-916B6A9C8908}|ProyectoClinica.Data\\ProyectoClinica.Data.csproj|c:\\users\\jjjja\\desktop\\c#\\proyectoclinica\\proyectoclinica.data\\repository\\logindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9802DD47-CB78-43E7-8CB7-916B6A9C8908}|ProyectoClinica.Data\\ProyectoClinica.Data.csproj|solutionrelative:proyectoclinica.data\\repository\\logindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92248B35-1C94-4350-A355-640B5B5DAD7A}|ProyectoClinica\\ProyectoClinica.Presecntacion.csproj|c:\\users\\jjjja\\desktop\\c#\\proyectoclinica\\proyectoclinica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92248B35-1C94-4350-A355-640B5B5DAD7A}|ProyectoClinica\\ProyectoClinica.Presecntacion.csproj|solutionrelative:proyectoclinica\\principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D4C4CEF3-0EA2-427D-9291-C22A728874D3}|ProyectoClinica.Business\\ProyectoClinica.Business.csproj|c:\\users\\jjjja\\desktop\\c#\\proyectoclinica\\proyectoclinica.business\\services\\loginservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4C4CEF3-0EA2-427D-9291-C22A728874D3}|ProyectoClinica.Business\\ProyectoClinica.Business.csproj|solutionrelative:proyectoclinica.business\\services\\loginservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC03AC80-299F-4ADE-BEA6-57E12E77F32D}|ProyectoClinica.Entities\\ProyectoClinica.Entities.csproj|c:\\users\\jjjja\\desktop\\c#\\proyectoclinica\\proyectoclinica.entities\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC03AC80-299F-4ADE-BEA6-57E12E77F32D}|ProyectoClinica.Entities\\ProyectoClinica.Entities.csproj|solutionrelative:proyectoclinica.entities\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92248B35-1C94-4350-A355-640B5B5DAD7A}|ProyectoClinica\\ProyectoClinica.Presecntacion.csproj|c:\\users\\jjjja\\desktop\\c#\\proyectoclinica\\proyectoclinica\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92248B35-1C94-4350-A355-640B5B5DAD7A}|ProyectoClinica\\ProyectoClinica.Presecntacion.csproj|solutionrelative:proyectoclinica\\iniciosesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9802DD47-CB78-43E7-8CB7-916B6A9C8908}|ProyectoClinica.Data\\ProyectoClinica.Data.csproj|c:\\users\\jjjja\\desktop\\c#\\proyectoclinica\\proyectoclinica.data\\repository\\logindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9802DD47-CB78-43E7-8CB7-916B6A9C8908}|ProyectoClinica.Data\\ProyectoClinica.Data.csproj|solutionrelative:proyectoclinica.data\\repository\\logindao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 149,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,67 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica.Entities\\Login.cs",
-              "RelativeDocumentMoniker": "ProyectoClinica.Entities\\Login.cs",
-              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica.Entities\\Login.cs",
-              "RelativeToolTip": "ProyectoClinica.Entities\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T05:56:02.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginDAO.cs",
-              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica.Data\\Repository\\LoginDAO.cs",
-              "RelativeDocumentMoniker": "ProyectoClinica.Data\\Repository\\LoginDAO.cs",
-              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica.Data\\Repository\\LoginDAO.cs",
-              "RelativeToolTip": "ProyectoClinica.Data\\Repository\\LoginDAO.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T05:45:38.304Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "LoginServices.cs",
               "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica.Business\\Services\\LoginServices.cs",
               "RelativeDocumentMoniker": "ProyectoClinica.Business\\Services\\LoginServices.cs",
               "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica.Business\\Services\\LoginServices.cs",
               "RelativeToolTip": "ProyectoClinica.Business\\Services\\LoginServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T05:46:59.051Z",
+              "WhenOpened": "2025-11-29T21:21:43.14Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Principal.cs",
-              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica\\Principal.cs",
-              "RelativeDocumentMoniker": "ProyectoClinica\\Principal.cs",
-              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica\\Principal.cs",
-              "RelativeToolTip": "ProyectoClinica\\Principal.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAIwCAAAAAlAAAAAAAAAA==",
+              "Title": "LoginDAO.cs",
+              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica.Data\\Repository\\LoginDAO.cs",
+              "RelativeDocumentMoniker": "ProyectoClinica.Data\\Repository\\LoginDAO.cs",
+              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica.Data\\Repository\\LoginDAO.cs",
+              "RelativeToolTip": "ProyectoClinica.Data\\Repository\\LoginDAO.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwA8AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T05:31:22.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InicioSesion.cs",
-              "DocumentMoniker": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica\\InicioSesion.cs",
-              "RelativeDocumentMoniker": "ProyectoClinica\\InicioSesion.cs",
-              "ToolTip": "C:\\Users\\jjjja\\Desktop\\c#\\ProyectoClinica\\ProyectoClinica\\InicioSesion.cs",
-              "RelativeToolTip": "ProyectoClinica\\InicioSesion.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-23T03:49:36.381Z",
+              "WhenOpened": "2025-11-29T21:24:00.373Z",
               "EditorCaption": ""
             }
           ]
